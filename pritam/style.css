@@ -1,11 +1,12 @@
 /* color palette from https://www.color-hex.com/color-palettes */
 :root {
-	--darkest-color: #064273;
-	--lightest-color: #def3f6;
-	--highlight-color: #ffffff;
-	--bright-color-1: #1da2d8;
-	--bright-color-2: #76b6c4;
-	--bright-color-3: #7fcdff;
+
+    --darkest-color: #0a1a32;
+    --lightest-color: #def3f6;
+    --highlight-color: #ffffff;
+    --bright-color-1: #0a827c;
+    --bright-color-2: #43bd9f;
+    --bright-color-3: #5be8a9;
 }
 
 body {
@@ -24,11 +25,11 @@ body {
 }
 
 .circle-shape {
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 	position: relative;
 	overflow: hidden;
-	border-radius: 50%;
+	border-radius: 30%;
 	border: 3px solid var(--lightest-color);
 	margin: 0 auto;
 }
